@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const Cascadia = localFont({
   src: [
@@ -131,7 +133,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Cascadia.variable} antialiased p-4`}>{children}</body>
+      <body className={`${Cascadia.variable} antialiased p-4`}>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
