@@ -25,16 +25,6 @@ This portfolio showcases my projects, skills, GitHub contributions, and includes
 
 ---
 
-## 📸 Screenshots
-
-### 💻 Desktop View
-![Desktop Preview](https://via.placeholder.com/1200x600.png?text=Portfolio+Desktop+Preview)
-
-### 📱 Mobile View
-![Mobile Preview](https://via.placeholder.com/400x800.png?text=Portfolio+Mobile+Preview)
-
----
-
 ## ⚙️ Installation & Setup
 
 Clone the repo and install dependencies:
