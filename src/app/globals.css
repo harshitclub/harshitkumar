@@ -19,8 +19,33 @@
   }
 }
 
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px; /* width of vertical scrollbar */
+  height: 10px; /* height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e5e5; /* background of scrollbar track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e5e5; /* color of scrollbar thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e5e5e5; /* color when hovering */
+}
+
+/* Works in Firefox */
+* {
+  scrollbar-width: thin; /* "auto" | "thin" */
+  scrollbar-color: #000 #e5e5e5; /* thumb | track */
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-cascadia);
+  background-color: #e5e5e5 !important;
 }
