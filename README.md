@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Personal Portfolio
 
-## Getting Started
+A simple and responsive personal portfolio built with **Next.js**, **Tailwind CSS**, and **TypeScript**.  
+This portfolio showcases my projects, skills, GitHub contributions, and includes fun interactive features like **haptic feedback** and **dark/light mode toggle**.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🎨 **Modern UI** – Built with Next.js + Tailwind CSS  
+- 📱 **Responsive Design** – Works on all devices  
+- 🌗 **Dark/Light Mode** toggle  
+- 📊 **GitHub Integration** – Fetch GitHub profile, repos, and streaks dynamically  
+- 📂 **Projects Showcase** – Highlight best projects with GitHub & Live links  
+- 🖱️ **Haptic Feedback** – Subtle vibration effects for interactive elements  
+- ⚡ **Optimized Performance** – Next.js Image, ISR/SSG for blazing fast loads  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS  
+- **API:** GitHub REST API  
+- **Deployment:** Vercel  
+
+---
+
+## 📸 Screenshots
+
+### 💻 Desktop View
+![Desktop Preview](https://via.placeholder.com/1200x600.png?text=Portfolio+Desktop+Preview)
+
+### 📱 Mobile View
+![Mobile Preview](https://via.placeholder.com/400x800.png?text=Portfolio+Mobile+Preview)
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/harshitclub/harshitkumar.git
+cd harshitkumar
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Environment Variables
 
-## Learn More
+Create a `.env.local` file in the root and add:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+NEXT_PUBLIC_GITHUB_USERNAME=your-github-username
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+Deployed easily on **Vercel**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📈 GitHub Stats & Streaks
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=harshitclub&theme=radical&hide_border=true)  
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshitclub&show_icons=true&theme=radical)  
+
+---
+
+## 🤝 Contributing
+
+1. Fork the project  
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)  
+3. Commit your changes (`git commit -m 'Add amazing feature'`)  
+4. Push to the branch (`git push origin feature/amazing-feature`)  
+5. Open a Pull Request  
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License** – feel free to use and modify it.
+
+---
+
+### ⭐ If you like this project, consider giving it a star on [GitHub](https://github.com/harshitclub/harshitkumar)!
