@@ -68,9 +68,9 @@ npm run start
 
 ## 📈 GitHub Stats & Streaks
 
-![GitHub Streak](https://github-readme-stats.vercel.app/api?username=harshitclub&show_icons=true&theme=radical)  
+![GitHub Streak](https://streak-stats.demolab.com/?user=harshitclub&theme=radical)  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshitclub&show_icons=true&theme=radical)  
+![GitHub Streak](https://github-readme-stats.vercel.app/api?username=harshitclub&show_icons=true&theme=radical)  
 
 ---
 
