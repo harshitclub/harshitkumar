@@ -3,7 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const Cascadia = localFont({
   src: [
@@ -134,7 +134,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="G-QYPJWH6EMJ" />
+      <GoogleAnalytics gaId="G-QYPJWH6EMJ" />
       <body className={`${Cascadia.variable} antialiased p-4`}>
         {children}
         <Analytics />
